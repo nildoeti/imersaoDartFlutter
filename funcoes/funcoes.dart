@@ -1,11 +1,8 @@
-void main(List<String> args) {
-  // chamndo a função saudacoes
-  saudacoes();
+void main() {
+	// função a ser chamada
+	saudacao();
 }
-et number
 
-// exemplo funcoes
-void saudacoes() {
-  print('olá Mundo!');
-  print('Estou estudando Dart com Flutter.');
+void saudacao() {
+	print('Olá mundo"');
 }
