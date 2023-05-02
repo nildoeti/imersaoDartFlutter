@@ -8,7 +8,7 @@ void saudacao() {
   print('${agora()}');
 }
 
-String agora() {
+String agora(()) {
   DateTime agora = DateTime.now();
   return agora.toString();
 }
