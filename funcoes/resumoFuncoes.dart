@@ -8,8 +8,6 @@
 //   print('$largura');
 // }
 
-
-
 // void main() {
 //   printIntro();
 //   calcSoma(4, 7);
@@ -24,9 +22,6 @@
 //   print(resultado);
 // }
 
-
-
-
 // void main() {
 //   // variábel resMult, recebe o valor de uma função
 //   // print não pode ser usdo antes da declaração da variável
@@ -40,7 +35,6 @@
 //   double resultado = a * b;
 //   return resultado;
 // }
-
 
 // void main() {
 //   // saida 1
@@ -65,7 +59,6 @@
 // // forma reduzida da função
 // double calcAreaCirculo(double raio) => 3.14 + raio * raio; // => é o mesmo que return
 
-
 // // parâmetros não opcional
 // void main() {
 //   criaBotao('Enviar', 'Azul', 56.8);
@@ -87,7 +80,6 @@
 //   print(cor);
 //   print(largura);
 // }
-
 
 // // parâmetros opcionais com definição de um valor padrão
 // void main() {
@@ -125,7 +117,6 @@ void criarBotao(String texto, Function funcaoCriado, Function funcMinha, {String
   funcMinha();
 }*/
 
-
 // // função anonima
 // void main() {
 //
@@ -147,7 +138,6 @@ void criarBotao(String texto, Function funcaoCriado, Function funcMinha, {String
 //   criadoFunc();
 // }
 
-
 // // funãço anonima
 // void main() {
 //   criarBotao('BotaoCamera', () {
@@ -164,8 +154,7 @@ void criarBotao(String texto, Function funcaoCriado, Function funcMinha, {String
 
 // variável global
 
-void main(() {
+void main(List<String> args) {
   print('Olá');
-}) {
-  print('olá mundo');
+  print('Mundo!');
 }
