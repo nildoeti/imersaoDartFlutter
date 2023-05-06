@@ -18,10 +18,10 @@ void main(List<String> args) {
 
   print(dds.values); // retorna os valores das chaves
   print(dds.keys); // retorna as chaves 
-  print(dds.containsKey(11));
-  print(dds.containsKey(99));
-  print(dds.containsValue('São Paulo'));
-  print(dds.containsValue('Campinas'));
+  print(dds.containsKey(11)); // true
+  print(dds.containsKey(99)); // false
+  print(dds.containsValue('São Paulo')); // true
+  print(dds.containsValue('Campinas')); // false
   print(dds.isEmpty); // esta a lista vazio?
   print(dds.isNotEmpty); // a lista não esta vazia?
 
